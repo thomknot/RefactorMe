@@ -1,0 +1,20 @@
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2 (1)\C#\RefactorMe\bin\Debug\RefactorMe.dll
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2 (1)\C#\RefactorMe\bin\Debug\RefactorMe.pdb
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2 (1)\C#\RefactorMe\bin\Debug\Ninject.dll
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2 (1)\C#\RefactorMe\bin\Debug\RefactorMe.DontRefactor.dll
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2 (1)\C#\RefactorMe\bin\Debug\RefactorMe.DontRefactor.pdb
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2 (1)\C#\RefactorMe\bin\Debug\Ninject.xml
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2 (1)\C#\RefactorMe\obj\Debug\RefactorMe.csprojResolveAssemblyReference.cache
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2 (1)\C#\RefactorMe\obj\Debug\RefactorMe.csproj.CoreCompileInputs.cache
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2 (1)\C#\RefactorMe\obj\Debug\RefactorMe.dll
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2 (1)\C#\RefactorMe\obj\Debug\RefactorMe.pdb
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2\C#\RefactorMe\bin\Debug\RefactorMe.dll
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2\C#\RefactorMe\bin\Debug\RefactorMe.pdb
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2\C#\RefactorMe\bin\Debug\Ninject.dll
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2\C#\RefactorMe\bin\Debug\RefactorMe.DontRefactor.dll
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2\C#\RefactorMe\bin\Debug\RefactorMe.DontRefactor.pdb
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2\C#\RefactorMe\bin\Debug\Ninject.xml
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2\C#\RefactorMe\obj\Debug\RefactorMe.csprojResolveAssemblyReference.cache
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2\C#\RefactorMe\obj\Debug\RefactorMe.csproj.CoreCompileInputs.cache
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2\C#\RefactorMe\obj\Debug\RefactorMe.dll
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2\C#\RefactorMe\obj\Debug\RefactorMe.pdb

@@ -1,0 +1,11 @@
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2 (1)\C#\RefactorMe.DontRefactor\bin\Debug\RefactorMe.DontRefactor.dll
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2 (1)\C#\RefactorMe.DontRefactor\bin\Debug\RefactorMe.DontRefactor.pdb
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2 (1)\C#\RefactorMe.DontRefactor\obj\Debug\RefactorMe.DontRefactor.csproj.CoreCompileInputs.cache
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2 (1)\C#\RefactorMe.DontRefactor\obj\Debug\RefactorMe.DontRefactor.dll
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2 (1)\C#\RefactorMe.DontRefactor\obj\Debug\RefactorMe.DontRefactor.pdb
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2\C#\RefactorMe.DontRefactor\bin\Debug\RefactorMe.DontRefactor.dll
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2\C#\RefactorMe.DontRefactor\bin\Debug\RefactorMe.DontRefactor.pdb
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2\C#\RefactorMe.DontRefactor\obj\Debug\RefactorMe.DontRefactor.csprojResolveAssemblyReference.cache
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2\C#\RefactorMe.DontRefactor\obj\Debug\RefactorMe.DontRefactor.csproj.CoreCompileInputs.cache
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2\C#\RefactorMe.DontRefactor\obj\Debug\RefactorMe.DontRefactor.dll
+C:\Users\beryl\Downloads\BKA\refactorme-be-v2\C#\RefactorMe.DontRefactor\obj\Debug\RefactorMe.DontRefactor.pdb

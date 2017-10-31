@@ -18,7 +18,7 @@ namespace RefactorMe.Tests
         public static ProductDataConsolidator _productDataConsolidator;
         public static PhoneCaseRepository _phoneCaseRepository;
         public static LawnmowerRepository _lawnmowerRepository;
-        public static TShirtRepository _tShirtRepository;   
+        public static TShirtRepository _tShirtRepository;
         bool isEqual = true;
 
         [TestInitialize]
@@ -32,21 +32,6 @@ namespace RefactorMe.Tests
             _tShirtRepository = kernel.Get<TShirtRepository>();
 
             ProductDataConsolidator _productDataConsolidatorw = new ProductDataConsolidator(_phoneCaseRepository, _lawnmowerRepository, _tShirtRepository);
-        }
-
-        [TestMethod()]
-        public void ProductWithNoCurrency()
-        {
-            //Arrange
-            var expected = ProductDataConsolidator.Get("");
-            expected.ForEach(x => x.Price = x.Price * 1);
-
-            //Act           
-            var actual = ProductDataConsolidator.Get("");
-            isEqual = CompareList.ComparingList(actual, expected);
-
-            //Assert
-            Assert.IsTrue(isEqual);
         }
 
         [TestMethod()]

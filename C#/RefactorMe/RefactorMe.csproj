@@ -42,15 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NinjectBinding.cs" />
     <Compile Include="ProductDataConsolidator.cs" />
     <Compile Include="Utility\CompareList.cs" />
-    <Compile Include="Utility\GetLawnInstance.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility\CurrencyExchange.cs" />
     <Compile Include="Utility\CurrencyType.cs" />
-    <Compile Include="Utility\GetPhoneInstance.cs" />
-    <Compile Include="Utility\GetTshirtInstance.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="README-FIRST.txt" />

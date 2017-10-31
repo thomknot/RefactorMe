@@ -16,7 +16,9 @@ namespace RefactorMe.Utility
             {
                 for (int i = 0; i <= actual.Count - 1; i++)
                 {
-                    if (actual[i].Id == expected[i].Id && actual[i].Name == expected[i].Name &&  actual[i].Price == expected[i].Price && actual[i].Type == expected[i].Type)
+                    if (actual[i].Name == expected[i].Name
+                        && actual[i].Price == expected[i].Price
+                        && actual[i].Type == expected[i].Type) // Ignoring the comparinf the Id's, as we are generating new GUId's
                     {
                         isEqual = true;
                     }
@@ -27,7 +29,6 @@ namespace RefactorMe.Utility
                     }
                 }
             }
-
             return isEqual;
         }
     }

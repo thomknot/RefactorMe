@@ -15,7 +15,7 @@ namespace RefactorMe
         public static PhoneCaseRepository _phoneCaseRepository;
         public static LawnmowerRepository _lawnmowerRepository;
         public static TShirtRepository _tShirtRepository;
-       
+
         //This constructor can be done with DI Container - NInject to Bind ProductConsolidatorService to ProductConsolidator
         public ProductDataConsolidator(PhoneCaseRepository phoneCaseRepository,
             LawnmowerRepository lawnmowerRepository,
@@ -25,26 +25,40 @@ namespace RefactorMe
             _lawnmowerRepository = lawnmowerRepository;
             _tShirtRepository = tShirtRepository;
         }
-         
 
         public static List<Product> Get(string currency)
         {
             //get exchange rate - this method is safe even if currency is null
-
             double exchangeRate = CurrencyExchange.GetExchangeRate(currency);
             var allProducts = new List<Product>();
 
-            // Get lawnmower products
-            var lawnmower = GetLawnInstance.GetLawnmower(_lawnmowerRepository, exchangeRate);
-            //  Get phoneCase products
-            var phoneCase = GetPhoneInstance.GetPhone(_phoneCaseRepository, exchangeRate);
-            //  Get tShirt products
-            var tshirt = GetTshirtInstance.GetTShirt(_tShirtRepository, exchangeRate);
-
-            allProducts.AddRange(lawnmower);
+            // Get lawnmower products            
+            var lawmower = _lawnmowerRepository.GetAll().Select(x => new Product
+            {
+                Id = x.Id,
+                Name = x.Name,
+                Price = x.Price * exchangeRate,
+                Type = "Lawmower"
+            });
+            //Get phoneCase products 
+            var phoneCase = _phoneCaseRepository.GetAll().Select(x => new Product
+            {
+                Id = x.Id,
+                Name = x.Name,
+                Price = x.Price * exchangeRate,
+                Type = "Phone case"
+            }); ;
+            //Get tShirt products 
+            var tShirts = _tShirtRepository.GetAll().Select(x => new Product
+            {
+                Id = x.Id,
+                Name = x.Name,
+                Price = x.Price * exchangeRate,
+                Type = "T - Shirt"
+            }); ;
+            allProducts.AddRange(lawmower);
             allProducts.AddRange(phoneCase);
-            allProducts.AddRange(tshirt);
-            allProducts.ForEach(x => x.Price = x.Price * exchangeRate);
+            allProducts.AddRange(tShirts);
             return allProducts;
         }
         #region 
